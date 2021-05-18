@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Stephan Planken</Authors>
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <FileVersion>1.0.0.5</FileVersion>
+    <RepositoryUrl>https://github.com/planken/ScrawnyLogger</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
