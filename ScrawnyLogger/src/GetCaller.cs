@@ -15,8 +15,8 @@ namespace ScrawnyLogger
             }
 
             List<string> names = new();
-            int i = 5;
-            while (i < 15)
+            int i = SkipStack;
+            while (true)
             {
                 StackFrame stackFrame = new(i++);
                 MethodBase methodBase = stackFrame.GetMethod();
@@ -36,7 +36,7 @@ namespace ScrawnyLogger
             {
                 names.Reverse();
                 string[] names2 = names.ToArray();
-                string names3 = string.Join(".", names2);
+                string names3 = string.Join(";", names2);
                 output = $"[{names3}] ";
             }
             return output;

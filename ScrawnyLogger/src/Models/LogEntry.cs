@@ -10,6 +10,7 @@ namespace ScrawnyLogger
         public string LogFileName { get; set; } = DefaultLogName();
         public string LogFolder { get; set; } = DefaultLogFolder();
         public bool Accumulate { get; set; } = true;
+        public int SkipStack { get; set; } = 5;
         public bool CallerRequest { get; set; } = false;
         public Severity Type { get; set; } = Severity.Info;
         public string Message { get; set; } = string.Empty;
