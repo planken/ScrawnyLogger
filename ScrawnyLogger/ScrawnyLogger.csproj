@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <Authors>Stephan Planken</Authors>
     <AssemblyVersion>1.0.2.9</AssemblyVersion>
     <FileVersion>1.0.2.9</FileVersion>
