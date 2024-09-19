@@ -14,7 +14,7 @@ namespace ScrawnyLogger
                 return output;
             }
 
-            List<string> names = new();
+            List<string> names = [];
             int i = SkipStack;
             while (true)
             {
